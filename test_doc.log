@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2024.3.9)  10 MAR 2024 01:14
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2024.3.9)  10 MAR 2024 01:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -224,11 +224,11 @@ Package caption Info: End \AtBeginDocument code.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(42.67912pt, 512.14963pt, 42.67912pt)
-* v-part:(T,H,B)=(42.67912pt, 759.6886pt, 42.67912pt)
+* v-part:(T,H,B)=(42.67912pt, 745.46222pt, 56.9055pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=512.14963pt
-* \textheight=759.6886pt
+* \textheight=745.46222pt
 * \oddsidemargin=-29.59087pt
 * \evensidemargin=-29.59087pt
 * \topmargin=-66.59087pt
@@ -300,11 +300,11 @@ File: header.png Graphic file (type bmp)
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 345.45538pt, for example:
-(fancyhdr)                \setlength{\headheight}{345.45538pt}.
+(fancyhdr)                Make it at least 339.05954pt, for example:
+(fancyhdr)                \setlength{\headheight}{339.05954pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-333.45538pt}.
+(fancyhdr)                \addtolength{\topmargin}{-327.05954pt}.
 
 [2]
 File: vector_algorithm.png Graphic file (type bmp)
@@ -318,25 +318,37 @@ File: header.png Graphic file (type bmp)
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 345.45538pt, for example:
-(fancyhdr)                \setlength{\headheight}{345.45538pt}.
+(fancyhdr)                Make it at least 339.05954pt, for example:
+(fancyhdr)                \setlength{\headheight}{339.05954pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-333.45538pt}.
+(fancyhdr)                \addtolength{\topmargin}{-327.05954pt}.
 
-[3] (test_doc.aux)
+[3]
+File: header.png Graphic file (type bmp)
+<header.png>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 339.05954pt, for example:
+(fancyhdr)                \setlength{\headheight}{339.05954pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-327.05954pt}.
+
+[4] (test_doc.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4822 strings out of 409617
- 80972 string characters out of 5774014
- 1933191 words of memory out of 5000000
- 26893 multiletter control sequences out of 15000+600000
+ 4829 strings out of 409617
+ 81128 string characters out of 5774014
+ 1935191 words of memory out of 5000000
+ 26900 multiletter control sequences out of 15000+600000
  558117 words of font info for 42 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 65i,17n,69p,259b,430s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 65i,17n,69p,273b,430s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on test_doc.pdf (3 pages).
+Output written on test_doc.pdf (4 pages).
