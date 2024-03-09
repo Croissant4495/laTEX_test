@@ -1,0 +1,7 @@
+\contentsline {section}{\numberline {D}Software}{3}{}%
+\contentsline {subsection}{\numberline {1}Thrusters Vector Algorithm:}{3}{}%
+\contentsline {subsection}{\numberline {2}Thrusters Speed}{3}{}%
+\contentsline {section}{\numberline {E}Communication}{3}{}%
+\contentsline {subsection}{\numberline {I}Top side:}{3}{}%
+\contentsline {subsection}{\numberline {II}Underwater side}{3}{}%
+\contentsline {section}{\numberline {F}Vision System}{3}{}%
