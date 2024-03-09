@@ -1,9 +1,54 @@
 \documentclass[a4paper,10pt]{article}
 
-\title{Software}
+\title{Abdelrahman latex}
 \author{Torpedo}
 
+
+
 \begin{document}
-		\maketitle
-		Test
+	\maketitle
+	\section*{\LARGE Software}
+	\section{Thrusters Vector Algorithm:}	
+		One problem we faced with our previous ROV’s was heavily
+		relying on basic motion directions (forward/backward/lateral left/right)
+		along with rotational motion on x, y, and z axes. This made the ROV’s 
+		diagonal motion hard and slow. This year, with the help of our R\&D
+		team, we found the solution to this problem in Jerzy Garus’s paper
+		which introduces a vector algorithm which enables us to move the
+		ROV in any direction.
+	\section{Thrusters}
+	\begin{flushleft}
+		After getting the wanted speed from the pilot, this data will be transmitted to the motors board
+		to be applied to the thrusters in the right order to enable Polaris move in a specific direction.  
+		
+		But assigning these speeds to the thrusters as they are, if the change in speed is large enough
+		especially if the motors are in sleep mode before setting the speed for them, may lead to a high
+		current draw, which may lead to the destruction of other components or affect the paths of the
+		board itself.
+		
+		At that moment comes the role of “soft start”, which is to prevent the high current draw or
+		malfunctioning of thrusters that could happen when a sudden change of the thrusters’ speed
+		occurs. We implemented our own software-based soft starter, by gradually ramping up the
+		speed supplied to the thrusters.
+	\end{flushleft}
+	
+	\section*{\LARGE Communication}
+	\setcounter{section}{0}
+	\renewcommand{\thesection}{\Roman{section}}/
+	\section{Top side:}	
+		As for the communication between the TCU and Polaris, Ethernet UDP “User 
+		Datagram Protocol” was used. The communication is full duplex; hence 
+		Polaris can send and receive data simultaneously. ENC28J60 Ethernet 
+		controller was chosen to serve as an ethernet network interface for the used 
+		microcontrollers since they are equipped with SPI “Serial Peripheral 
+		Interface”. On top of that, the “UIPEthernet” library was used to control the 
+		Ethernet modules
+	\section{Underwater side}
+		This year, we decided to use an ESP32 microcontroller instead of using three Arduino Nano. 
+		This reduced the error due to communication between the three Arduino Nanos. The ESP32 
+		offered several advantages over the Arduino such as its higher processing power, its dual core 
+		architecture which allowed us to multitask and its built-in Wi-Fi which allowed us to upload 
+		different codes on Polaris’ ESP32 wirelessly.
+	
+	
 \end{document}
